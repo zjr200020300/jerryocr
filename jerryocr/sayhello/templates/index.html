@@ -35,8 +35,8 @@
 	</div>
 </div>
 
-<script src="{{ url_for('static', filename='js/ssi-uploader.js') }}"></script>
 <script src="{{ url_for('static', filename='js/jquery-2.1.1.min.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/ssi-uploader.js') }}"></script>
 <script type="text/javascript">
 	$('#ssi-upload').ssi_uploader({url:'#',maxFileSize:6,allowed:['jpg','gif','png','pdf']});
 	$('#ssi-upload2').ssi_uploader({url:'#',preview:false,allowed:['jpg','gif','png','pdf']});
